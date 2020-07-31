@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Button = styled.button`
     color: var(--white);
+    background-color:black;
     border: 1px solid var(--white);
     box-sizing: border-box;
     cursor: pointer;
@@ -19,7 +20,6 @@ const Button = styled.button`
     .ButtonLink:focus {
     opacity: .5;
     }
-`
-;
+`;
 
 export default Button;
